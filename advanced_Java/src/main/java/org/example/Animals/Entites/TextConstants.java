@@ -1,4 +1,4 @@
-package org.example.animals.Entites;
+package org.example.Animals.Entites;
 
 public class TextConstants {
     final static public String LION_MOVEMENT = "Бегу!";

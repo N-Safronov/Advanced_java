@@ -1,8 +1,8 @@
-package org.example.animals;
+package org.example.Animals;
 
 import lombok.Getter;
 import lombok.Setter;
-import org.example.animals.Entites.TypeAnimal;
+import org.example.Animals.Entites.TypeAnimal;
 
 @Getter
 @Setter

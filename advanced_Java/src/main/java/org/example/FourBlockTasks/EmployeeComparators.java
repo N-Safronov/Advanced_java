@@ -1,4 +1,4 @@
-package org.example.Tree;
+package org.example.FourBlockTasks;
 
 import java.util.Comparator;
 

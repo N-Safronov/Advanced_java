@@ -1,4 +1,4 @@
-package org.example.Two;
+package org.example.ThreeBlockTasks;
 
 public enum Sex {
     MAN,

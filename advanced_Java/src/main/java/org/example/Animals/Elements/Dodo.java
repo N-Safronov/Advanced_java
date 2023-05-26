@@ -1,7 +1,7 @@
-package org.example.animals.Elements;
+package org.example.Animals.Elements;
 
-import org.example.animals.Animals;
-import org.example.animals.Entites.TextConstants;
+import org.example.Animals.Animals;
+import org.example.Animals.Entites.TextConstants;
 
 
 public class Dodo extends Animals {

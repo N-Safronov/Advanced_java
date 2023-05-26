@@ -1,4 +1,4 @@
-package org.example.OneTask;
+package org.example.SecondBlockTasks;
 
 
 import java.util.ArrayList;
@@ -8,7 +8,7 @@ import java.util.Stack;
 import java.util.HashMap;
 import java.util.Map;
 
-public class OneTask {
+public class SecondBlockTasks {
 
 
     public List<Object> duplicationRemoval(List<?> list) {

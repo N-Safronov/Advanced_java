@@ -1,18 +1,16 @@
 package org.example;
 
-import org.example.OneTask.ArrayIterator;
-import org.example.Tree.Employee;
-import org.example.Tree.EmployeeComparators;
-import org.example.Two.Sex;
-import org.example.Two.Student;
-import org.example.animals.Elements.Crocodile;
-import org.example.animals.Elements.Dodo;
-import org.example.animals.Elements.Lion;
-import org.example.OneTask.OneTask;
-import org.example.animals.Entites.TextConstants;
+import org.example.SecondBlockTasks.ArrayIterator;
+import org.example.FourBlockTasks.Employee;
+import org.example.FourBlockTasks.EmployeeComparators;
+import org.example.ThreeBlockTasks.Sex;
+import org.example.ThreeBlockTasks.Student;
+import org.example.Animals.Elements.Crocodile;
+import org.example.Animals.Elements.Dodo;
+import org.example.Animals.Elements.Lion;
+import org.example.SecondBlockTasks.SecondBlockTasks;
 
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class Main {
 
@@ -25,7 +23,7 @@ public class Main {
         System.out.println(lion.getSpeed());
 
         List<String> name = List.of("nikita", "nikita", "vlad", "luda", "misha");
-        OneTask oneTask = new OneTask();
+        SecondBlockTasks oneTask = new SecondBlockTasks();
 
         List<?> result = oneTask.duplicationRemoval(name);
         name = (List<String>) result;
@@ -55,16 +53,16 @@ public class Main {
         System.out.println(oneTask.stringСompression("aabcaaaa"));
 
         System.out.println("----6----");
-        System.out.println(OneTask.findMostRepeatedChar("aabcaaaalkfnvjnaddddddddddd"));
+        System.out.println(SecondBlockTasks.findMostRepeatedChar("aabcaaaalkfnvjnaddddddddddd"));
 
         System.out.println("----6----");
-        System.out.println(OneTask.validateBrackets("(((((aabc(((aaaa)))lkfn(vjnad(dddddddddd(((((((((((("));
+        System.out.println(SecondBlockTasks.validateBrackets("(((((aabc(((aaaa)))lkfn(vjnad(dddddddddd(((((((((((("));
 
         System.out.println("----7----");
-        System.out.println(OneTask.reduceSpaces("            d         d         d              "));
+        System.out.println(SecondBlockTasks.reduceSpaces("            d         d         d              "));
 
         System.out.println("----8----");
-        System.out.println(OneTask.findPairs(new int[]{4,1,2,4,4,2}));
+        System.out.println(SecondBlockTasks.findPairs(new int[]{4,1,2,4,4,2}));
 
 
         System.out.println("+++++++++++++++++++++++++++");

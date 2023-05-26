@@ -1,4 +1,4 @@
-package org.example.OneTask;
+package org.example.SecondBlockTasks;
 
 public class ArrayIterator<T> {
     private final T[] array;
